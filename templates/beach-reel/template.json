@@ -1,0 +1,139 @@
+{
+  "id": "beach-reel",
+  "name": "Beach Reel",
+  "version": 1,
+  "createdAt": 1761609600000,
+  "description": "Six sunny shots with quick zooms and slides, a warm glow grade and a bouncy summer title.",
+  "ratio": "9:16",
+  "musicSuggestion": "Upbeat summer pop or tropical house",
+  "background": {
+    "type": "BLUR",
+    "blurLevel": 3
+  },
+  "tags": [
+    "summer",
+    "beach",
+    "travel"
+  ],
+  "coverColors": [
+    4294947655,
+    4281255153
+  ],
+  "slots": [
+    {
+      "durationUs": 1500000,
+      "transition": {
+        "id": "zoom_in",
+        "durationUs": 350000
+      },
+      "filter": {
+        "id": "warm_glow",
+        "intensity": 0.75
+      },
+      "animations": {
+        "inAnim": {
+          "id": "in_pop",
+          "durationUs": 350000
+        }
+      },
+      "transform": {
+        "scale": 1.05
+      }
+    },
+    {
+      "durationUs": 1500000,
+      "transition": {
+        "id": "slide_left",
+        "durationUs": 350000
+      },
+      "filter": {
+        "id": "warm_glow",
+        "intensity": 0.75
+      }
+    },
+    {
+      "durationUs": 1500000,
+      "transition": {
+        "id": "zoom_in",
+        "durationUs": 350000
+      },
+      "filter": {
+        "id": "warm_glow",
+        "intensity": 0.75
+      },
+      "transform": {
+        "scale": 1.05
+      }
+    },
+    {
+      "durationUs": 1500000,
+      "transition": {
+        "id": "push_up",
+        "durationUs": 350000
+      },
+      "filter": {
+        "id": "warm_glow",
+        "intensity": 0.75
+      }
+    },
+    {
+      "durationUs": 1500000,
+      "transition": {
+        "id": "slide_right",
+        "durationUs": 350000
+      },
+      "filter": {
+        "id": "warm_glow",
+        "intensity": 0.75
+      },
+      "transform": {
+        "scale": 1.05
+      }
+    },
+    {
+      "durationUs": 2500000,
+      "transition": {
+        "id": "mix",
+        "durationUs": 400000
+      },
+      "filter": {
+        "id": "warm_glow",
+        "intensity": 0.75
+      }
+    }
+  ],
+  "texts": [
+    {
+      "text": "Summer Days ☀️",
+      "startUs": 200000,
+      "durationUs": 2600000,
+      "style": {
+        "fontId": "luckiest_guy",
+        "size": 0.08,
+        "color": -1,
+        "strokeColor": -34304,
+        "strokeWidth": 0.12,
+        "shadowColor": -2013265920,
+        "shadowBlur": 0.2,
+        "shadowDistance": 0.05
+      },
+      "transform": {
+        "y": 0.55
+      },
+      "animations": {
+        "inAnim": {
+          "id": "in_bounce",
+          "durationUs": 600000
+        },
+        "loop": {
+          "id": "loop_pulse",
+          "durationUs": 1000000
+        },
+        "outAnim": {
+          "id": "out_pop",
+          "durationUs": 300000
+        }
+      }
+    }
+  ]
+}

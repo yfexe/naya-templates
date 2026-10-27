@@ -1,0 +1,123 @@
+{
+  "id": "mood-board",
+  "name": "Mood Board",
+  "version": 1,
+  "createdAt": 1761609600000,
+  "description": "Five slow, soft moments with gentle crossfades, a muted film look and an elegant serif caption.",
+  "ratio": "4:5",
+  "musicSuggestion": "Calm lo-fi or soft piano",
+  "background": {
+    "type": "BLUR",
+    "blurLevel": 4
+  },
+  "tags": [
+    "aesthetic",
+    "calm",
+    "photo dump"
+  ],
+  "coverColors": [
+    4292461488,
+    4285225843
+  ],
+  "slots": [
+    {
+      "durationUs": 2400000,
+      "transition": {
+        "id": "mix",
+        "durationUs": 700000
+      },
+      "filter": {
+        "id": "film_stock",
+        "intensity": 0.6
+      },
+      "transform": {
+        "scale": 1.03
+      }
+    },
+    {
+      "durationUs": 2400000,
+      "transition": {
+        "id": "mix",
+        "durationUs": 700000
+      },
+      "filter": {
+        "id": "film_stock",
+        "intensity": 0.6
+      },
+      "transform": {
+        "scale": 1.03
+      }
+    },
+    {
+      "durationUs": 2400000,
+      "transition": {
+        "id": "mix",
+        "durationUs": 700000
+      },
+      "filter": {
+        "id": "film_stock",
+        "intensity": 0.6
+      },
+      "transform": {
+        "scale": 1.03
+      }
+    },
+    {
+      "durationUs": 2400000,
+      "transition": {
+        "id": "mix",
+        "durationUs": 700000
+      },
+      "filter": {
+        "id": "film_stock",
+        "intensity": 0.6
+      },
+      "transform": {
+        "scale": 1.03
+      }
+    },
+    {
+      "durationUs": 3000000,
+      "transition": {
+        "id": "mix",
+        "durationUs": 700000
+      },
+      "filter": {
+        "id": "film_stock",
+        "intensity": 0.6
+      },
+      "transform": {
+        "scale": 1.03
+      }
+    }
+  ],
+  "texts": [
+    {
+      "text": "little moments",
+      "startUs": 400000,
+      "durationUs": 3200000,
+      "style": {
+        "fontId": "playfair_display",
+        "size": 0.05,
+        "color": -1,
+        "italic": true,
+        "shadowColor": 1711276032,
+        "shadowBlur": 0.3,
+        "shadowDistance": 0.03
+      },
+      "transform": {
+        "y": -0.6
+      },
+      "animations": {
+        "inAnim": {
+          "id": "in_fade",
+          "durationUs": 800000
+        },
+        "outAnim": {
+          "id": "out_fade",
+          "durationUs": 600000
+        }
+      }
+    }
+  ]
+}

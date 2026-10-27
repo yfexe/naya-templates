@@ -1,0 +1,14 @@
+{
+  "templates": [
+    {
+      "id": "beach-reel",
+      "version": 1,
+      "path": "templates/beach-reel/template.json"
+    },
+    {
+      "id": "mood-board",
+      "version": 1,
+      "path": "templates/mood-board/template.json"
+    }
+  ]
+}
