@@ -1,2 +1,2 @@
-# naya-templates
+# sovexii-templates
 
